@@ -9,3 +9,41 @@ img, video, audio, iframe, table, form {
 .row {
 	margin-bottom: 20px
 }
+/*////// CAROUSEL////*/
+#carousel-example-generic .item img {
+	height: auto;
+}
+
+.carousel-caption p {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	#carousel-example-generic .item img {
+	height: 384 px;
+	}
+
+
+}
+
+@media only screen and (min-width: 992px) {
+	#carousel-example-generic .item img {
+	height: 496 px;
+	}
+	.carousel-caption p {
+	display: block;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+	#carousel-example-generic .item img {
+	height: 600 px;
+	}
+	carousel-caption p {
+	display: block;
+}
+}
+
+@media only screen and (min-width: 768px) {
+	
+}
